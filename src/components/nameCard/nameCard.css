@@ -1,0 +1,19 @@
+.card {
+	background-color: #2b2a49;
+	padding: 10px 16px;
+	border: 1px solid black;
+	border-radius: 10px;
+	min-width: 100px;
+	color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	transition: background-color 2s;
+}
+
+.name-link {
+	text-decoration: none;
+}
+
+.card:hover {
+	background-color: #7673ce;
+}
